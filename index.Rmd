@@ -1,0 +1,81 @@
+---
+title: "Technological Mediation"
+subtitle: "A Postphenomenology Primer for Instructors, Designers, and More"
+author: "Dr. Ryan Straight"
+date: "2021 September 21"
+output:
+  xaringan::moon_reader:
+    css: ["assets/arizona-fonts.css", "assets/arizona.css", "default"]
+    self_contained: false # if true, fonts will be stored locally
+    seal: true # show a title slide with YAML information
+    nature:
+      beforeInit: ["assets/remark-zoom.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+---
+```{r setup, include=FALSE}
+# A University of Arizona theme for Xaringan RMarkdown slide decks
+
+# Based on [Garth Tarr's `sydney_xaringan` theme](https://github.com/garthtarr/sydney_xaringan), itself based on the original [xaringan](https://github.com/yihui/xaringan) theme by Yihui Xie.
+
+# Fonts, colors, and other assets from [brand.arizona.edu](https://brand.arizona.edu). Please note that _Proximia Nova_ is a licensed font that should only be used with permission, so is not included here. Instead, MiloWeb is used.
+
+options(htmltools.dir.version = FALSE)
+library(xaringan)
+library(xaringanExtra)
+library(DT)
+library(kableExtra)
+library(tidyverse)
+
+# Xaringan extras
+xaringanExtra::use_scribble()     #<< turns on Scribbling
+
+# Code highlighting on over
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+# xaringanExtra::use_slide_tone() # unmute when publishing
+
+# Turns on clipboard options. Great for giving code to students.
+htmltools::tagList(               # # turns on the clipboard option
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+    error_text = "<i class=\"fa fa-times-circle\" style=\"color: #F94144\"></i>"
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+
+# Editable slides
+xaringanExtra::use_editable(expires = 1)
+```
+
+```{r, load_refs, echo=FALSE, cache=FALSE, message=FALSE, warning=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE, 
+           bib.style = "authoryear", 
+           cite.style = 'authoryear', 
+           style = "markdown",
+           hyperlink = FALSE, 
+           dashed = FALSE)
+myBib <- ReadBib("assets/example.bib", check = FALSE)
+```
+class: arizona-blue
+background-image: url(assets/ua_horiz_rgb_4.svg)
+background-size: 260px
+background-position: 5% 95%
+
+# Coming soon!
+
+.pull-right[.pull-down[
+
+ryanstraight@arizona.edu
+
+<br><br><br>
+
+]]

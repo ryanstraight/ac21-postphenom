@@ -9,7 +9,7 @@
     <script src="index_files/fabric/fabric.min.js"></script>
     <link href="index_files/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
     <script src="index_files/xaringanExtra-scribble/scribble.js"></script>
-    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30}) })</script>
     <link href="index_files/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <script src="index_files/clipboard/clipboard.min.js"></script>
     <link href="index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
     <script>window.xaringanExtraClipboard(null, {"button":"<i class=\"fa fa-clipboard\"><\/i>","success":"<i class=\"fa fa-check\" style=\"color: #90BE6D\"><\/i>","error":"<i class=\"fa fa-times-circle\" style=\"color: #F94144\"><\/i>"})</script>
     <link href="index_files/font-awesome/css/all.css" rel="stylesheet" />
     <link href="index_files/font-awesome/css/v4-shims.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c8d45ee453954c32ac7ee82b9a208a0d","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"f549bc2a212545c189f70f55b7d46135","expires":1}</script>
     <script src="index_files/himalaya/himalaya.js"></script>
     <script src="index_files/js-cookie/js.cookie.js"></script>
     <link href="index_files/editable/editable.css" rel="stylesheet" />
@@ -61,6 +61,16 @@ class: center, middle, inverse, title-slide
 
 ]
 
+???
+
+Welcome! I applaud you for joining the session, especially if you've never heard of postphenomenology since it's not exactly the most welcoming word (in fact, the scholar who coined it wishes he'd picked something else). If you think of yourself as a bit of a tech nerd, you are so in the right place.
+
+The plan for today is as such. A bit about me and why I've got you here, what this whole concept is, why it's relevant to us, and then... how you actually quote-unquote "do" it. Because postphenomenology is both a framework for understanding how people, technology, and the world co-create our perceptions but also a methodology for how to empirically examine that relationship and experience.
+
+To be honest, you may recognize some of the concepts we're talking about today. You may know them or versions of them as different terminology in other frameworks and methodologies. And that's okay! That's really what today is going to be about: providing you with another toolbox with some tools that are brand new, and some old tools that you'll be looking at in--hopefully--a new way.
+
+Of course, if you have questions or comments during the session, please don't hesitate to put them in the chat or raise your hand. Perhaps I can answer them, and if I can I will, but my goal here is not to provide a step-by-step on how to do this particular thing, but rather to get you, this community, to ask questions. So, on with the show!
+
 ---
 class: secondary-silver
 background-image: url("assets/ua_horiz_rgb_black_4.svg")
@@ -79,45 +89,78 @@ background-position: 95% 95%
 
 ---
 class: secondary-river
-background-image: url("assets/ua_horiz_rgb_black_4.svg")
+background-image: url("assets/ua_horiz_rgb_4.svg")
 background-size: 20%
 background-position: 95% 95%
 
 # What is postphenomenology?
 
-(icon)
+???
+
+I'll be giving a brief overview of what PP is and where it comes from, but the majority of the work in terms of "doing" PP and its integration into this education space actually comes from the work of Catherine Adams and others. So, using her definition, postphenomenology is:
+
+
+--
+
+"[a] phenomenology that attends to specific technologies and the existential and epistemological differences they may be making to the lifeworld" (Adams &amp; Turville, 2018, p.4).
 
 ???
 
-I'll be giving a brief overview of what PP is and where it comes from, but the majority of the work in terms of "doing" PP and its integration into this online learning space actually comes from the work of Catherine Adams and others. So, using her definition:
+&gt;"phenomenology that attends to specific technologies and the existential and epistemological differences they may be making to the lifeworld" (Adams &amp; Turville, 2018, p.4).
 
-&gt;"phenomenology that attends to specific technologies and the existential and epistemological differences they may be making to the lifeworld" (2018, p.4).
-
-And we'll unpack that as this session goes on. First, how did we get from traditionally phenomenology to ... this?
+And we'll unpack that as this session goes on and you'll have access to a collection of references and resources involved in this topic. But first, how did we get from traditionally phenomenology to ... this?
 
 ---
 class: brand-blue
 
-# A brief history of postphenomenology
+# A **brief** history of postphenomenology
+
+.pull-left[
 
 
+]
+
+
+.pull-right[
+
+## The necker cube: variational analysis
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Necker_cube.svg)&lt;!-- --&gt;
+
+.font40[Source: Wiki Commons: https://commons.wikimedia.org/wiki/File:Necker_cube.svg]
+
+]
 ...
 
 ???
 
-+ Ihde in the 70s
-+ Ihde in the 90s
-+ Verbeek and others
-+ Actor Network Theory
-+ Technological mediation
-+ Applied postphenomnology, or Adams' "postphenomenology of practice," as her specific version is based on the phenomenological work of Van Manen.
+This is going to be very brief because I'm going to dig into most of this more throughout the session, so if something doesn't quite make sense yet, just hang on.
 
-So let's start off really digging into this framework with some terminology. Listen closely as there will be a quiz.
++ First, phenomenology. And when I say "brief," I mean *super* brief. 
+    + Essentially, if you recall from your days taking philosophy 101, phenomenology is a framework for understanding consciousness and our place in the world by understanding that consciousness is always *directed* or *intentional*. The old "you can't think of nothing" idea. In order to quote-unquote "do" phenomenology, the researcher must remove all prejudice and intefering preconceptions about the thing they're studying to focus on, as Husserl puts it, "The things themselves."
++ Ihde
+    + Then Don Ihde comes along and says, "Hang on, this whole phenomenology thing should make this a bit more pragmatic. Now we have all this technology that doesn't *intefere* with how we see and experience the world, it actually *mediates* that experience! And we should study that, not put it aside!"
+    + So he comes up with a new, call it "modern" version of phenomenology, and appends "post" to it, not to say it's the successor, but to point out that it's acknowledging the 20th century "empirical turn."
+    + He writes a text called *Technology and the Lifeworld*, in which he outlines the basic tenets of the new postphenomenological framework. It's not perfect but it gets the conversation started.
++ Verbeek and others
+    + Scholars begin studying under Ihde and coming up with their own improvements on and variations of the framework. Verbeek, for example, begins focusing on a theory of technological mediation specifically, while others begin incorporating it into their own fields of interest like the study of medical assistive devices or, again in Verbeek's case, studying a la Husserl, "things, themselves" like park benches.
++ Actor Network Theory
+    + Related to postphenomenology is Actor Network Theory, typically attributed to Bruno Latour, which focuses on objectivity and subjectivity being co-constructed by the "actors" within a "network." So, a person and a chair aren't subjects or objects until they interact, at which point their positionality is established. Essentially. These networks can and do shift, so ANT is a framework and methodology for examining this. I mention it here because it's related to postphenomenology in that the latter informs the former with the ability to examine things, as Verbeek puts it, "from inside out."
++ That brings us to applied postphenomnology, or Adams' "postphenomenology of practice," as her specific version is based on the phenomenological work of Van Manen, whom she studied under.
+    + I *highly* encourage you read the work I link in the resources and references if this is piquing your interest. It's really fascinating. Adams' work, especially. This is how we're quote-unquote "doing" postphenomenology in our particular case. And we'll come back to that.
+  
 
 ---
-class: brand-blue
+class: secondary-silver
+background-image: url("assets/ua_horiz_rgb_black_4.svg")
+background-size: 20%
+background-position: 95% 95%
 
 # Terminology
+
+???
+
+So we've got our basic background of this framework but let's dig into the specific terminology a bit more before we start talking about how we can use it. Listen closely as there will be a quiz. :D
 
 
 ---
@@ -129,7 +172,7 @@ class: brand-red
 
 ???
 
-When we think of how we interact with the world, in classical phenomenology we're encouraged (required, in fact) to "block" or otherwise attempt to eschew all elements of the lifeworld that can interfere with our experience to get to the root of the thing. PP says, no, technology (as we experience it now) shouldn't be dismissed or considered a hindrance but rather something to be empirically studied. And we'll look at just how postphenomenologists like Ihde typically envision this in just a little bit.
+When we think of how we interact with the world, in classical phenomenology, as I briefly mentioned just a minute ago, we're encouraged (required, in fact) to "block" or otherwise attempt to eschew all elements of the lifeworld that can interfere with our experience to get to the root of the thing. PP says, no, technology (as we experience it now) shouldn't be dismissed or considered a hindrance but rather something to be empirically studied. And we'll look at just how postphenomenologists like Ihde typically envision this in just a little bit.
 
 --
 
@@ -141,6 +184,8 @@ When we think of how we interact with the world, in classical phenomenology we'r
 
 Think of a hammer. It can be a construction tool, a paperweight, or a weapon. Don't confuse this with *convergence*, for example with a phone now being a GPS, a camera, and so on, as these various technologies have converged into one. No, here we're talking about a technology that is built for one thing but has various (multiple) different possibly unintended functions. 
 
+The Necker cube, for example. You can see it one way, then you can see it another, but the thing itself doesn't change. It's simply how you're perceiving it and its existence in the world. 
+
 --
 
 ## Transparency
@@ -149,12 +194,17 @@ Think of a hammer. It can be a construction tool, a paperweight, or a weapon. Do
 
 ???
 
-If you recall this from your philosophy of technology days, the hammer is a tool but becomes something else entirely when it breaks. When it's functioning, though, a sense of embodiment arises and the hammer and hammer user become one. Like an air conditioner: you don't really think much about it until it doesn't work. If you're a gamer, think of this as the controller: eventually you stop feeling that technology as something opaque between you and the screen. 
+If you're thinking of Heidegger and recall this from your philosophy of technology days, bravo!  the hammer is a tool but becomes something else entirely when it breaks. When it's functioning, though, a sense of embodiment arises and the hammer and hammer user become one. Like an air conditioner: you don't really think much about it until it doesn't work. If you're a gamer, think of this as the controller: eventually you stop feeling that technology as something opaque between you and the screen. 
+
+This is somewhat related to another topic: embodiment. That is, through our habits and repeated use of a technology, the line between subject and object begins to blur. Think of a master painter and a brush, or a virtuoso violinist and their instrument; they very nearly become *one*.
 
 And this leads us to the fun stuff: technic relations.
 
 ---
-class: secondary-silver
+class: secondary-river
+background-image: url("assets/ua_horiz_rgb_4.svg")
+background-size: 20%
+background-position: 95% 95%
 
 # Technic Relations
 
@@ -164,11 +214,24 @@ class: secondary-silver
 
 The real goal of all this--and, hopefully, why you're here--is to discuss just how we relate to the world through, because of, and maybe even sometimes *in spite of* technologies.
 
+So I'm going to run through the original four really quick. These were outlined in Ihde's "Technology and the Lifeworld." I'll then very briefly point out the newer relations that have come about since these as technology has advanced.
 
 ---
 class: brand-blue
 
 # Embodiment
+
+.pull-left[
+
+
+]
+
+.pull-right[
+
+
+]
+
+???
 
 ...
 
@@ -178,7 +241,21 @@ class: brand-blue
 
 # Hermenutic
 
+.pull-left[
+
+
+]
+
+.pull-right[
+
+
+]
+
+???
+
 ...
+
+
 
 
 ---
@@ -186,7 +263,21 @@ class: brand-blue
 
 # Alterity
 
+.pull-left[
+
+
+]
+
+.pull-right[
+
+
+]
+
+???
+
 ...
+
+
 
 
 ---
@@ -194,16 +285,62 @@ class: brand-blue
 
 # Background
 
-...
+.pull-left[
+
+
+]
+
+.pull-right[
+
+
+]
 
 ???
 
 The air conditioner we talked about. 
 
-Now, time for a little thought experiment. I want you to imagine a typical online student, however they may look.
+---
+class: brand-red
+
+# The Next Generation
+
+## Fusion
+
+&gt; (I / Technology) -&gt; World
+
+???
+
+Here we start getting into more complex relations that you can imagine being used in cutting-edge or future online/virtual learning environments. Hopefully you're beginning to see where I'm going with all this.
+
+First, fusion. Here we're talking about everything from IUDs to pacemakers, from implanted RFID chips to cochlear implants. In this case, there is no physical separation of the self and the technology. In fact, removing one of them from the equation breaks the entire thing down. A pacemaker without a user has no impact, and a user without a pacermaker is... well. You get the point. The person and the technology are literally **fused** insofar as experiencing the world is concerned.
+
+--
+
+## Immersion
+
+&gt; I &lt;-&gt; Technology/World
+
+???
+
+This is reflexive technology. A "classic" example of this is a "smart mirror" you could find at a doctor's office. You look in the mirror but there's also a camera behind it that, using facial recognition, connects to your medical record and displays your vital statistics, information about your lifestyle, or even something like that at home that displays your daily schedule or mean plan for the day. Perhaps, in the case of the doctor's office, it will use algorithmic software to show you what you'll look like in five, ten, fifteen years if you continue your current health trends. Whatever the case may be. So you experience the world that's enmeshed with the technology, and the technology, being reflexive, reacts to you as much as you react to it. Hence this kind of bidirectionality. (Example from "Verbeek's theory of technological mediation" in FutureLearn.) 
+
+--
+
+## Augmentation
+
+&gt; (I-Technology) -&gt; World -&gt; (Technology-World)
+
+???
+
+Told you we're getting complex! I'm sure you've used some sort of augmented reality application or tool, from Pokemon Go to maybe a HoloLens. In this case, a second layer of reality is overlayed on the one you're experiencing, and both you *and the tool* react to that. This is often called a "bifurcated" representation, as you're now seeing two different aspects of the world simultaneously.
+
+Hopefully, you're beginning to think about just how this framework is starting to make sense when it comes to your online learning toolbox. I want to really start digging into that now, but first, time for a little thought experiment. I want you to imagine a typical online student, however they may look.
 
 ---
-class: secondary-river
+class: secondary-silver
+background-image: url("assets/ua_horiz_rgb_black_4.svg")
+background-size: 20%
+background-position: 95% 95%
 
 # Thought experiment
 
@@ -211,8 +348,9 @@ class: secondary-river
 
 ???
 
-Do you have it in your mind? Picture everything. The chair, the desk, the laptop or PC, the ambient sounds, the temperature, the lighting. Now picture what kind of LMS is coming through. Is it responsive? Think about the PDF the student is reading on the screen: is it OCR friendly? 
-Think about all these things and start categorizing them into the different relations: the mouse and keyboard are part of the student, so the embodiment relation is occurring. The way the course is designed is unfamiliar, so there's some breakdown in the hermeutic relationship as the student tries to interpret what's presented. 
+Do you have it in your mind? Picture everything. The chair, the desk, the laptop or PC, the ambient sounds, the temperature, the lighting. Now picture what kind of LMS is coming through the screen. Is it responsive? Think about the PDF the student is reading on the screen: is it OCR friendly? 
+
+Think about all these things and start categorizing them into the different relations: the mouse and keyboard are quote "part of" the student, so the embodiment relation is occurring. The way the course is designed is unfamiliar, so there's some breakdown in the hermeutic relation as the student tries to interpret what's presented. Perhaps the room is too cold or there's the hum of other machines nearby, so the background relation is impacting the student's ability to concentrate.  
 
 And so on.
 

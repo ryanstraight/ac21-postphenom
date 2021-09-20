@@ -54,9 +54,15 @@ htmltools::tagList(               # # turns on the clipboard option
 
 # Editable slides
 xaringanExtra::use_editable(expires = 1)
+
+# ShareAgain
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket", "facebook")
+)
 ```
 
-```{r metathis, echo=FALSE, eval=FALSE}
+```{r metathis, echo=FALSE}
 library(metathis)
 meta() %>%
   meta_name("github-repo" = "ryanstraight/ac21-postphenom") %>% 

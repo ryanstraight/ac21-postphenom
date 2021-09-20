@@ -285,8 +285,13 @@ class: brand-blue
 
 .pull-left[
 
-...
+> `(human - technology) -> world`
 
+People and technology together relate to the world.
+
++ You see **through** a telescope.
++ You talk **through** a phone.
++ There is technologic **transparency**.
 
 ]
 
@@ -309,7 +314,11 @@ class: brand-blue
 
 .pull-left[
 
-...
+> `human -> (technology - world)`
+
++ You **read off** a speedometer.
++ We **interpret** an x-ray.
++ We assume the translation is accurate.
 
 
 ]
@@ -335,8 +344,11 @@ class: brand-blue
 
 .pull-left[
 
-...
+> `human -> technology (world)`
 
++ Technology as **other**.
++ We're in **its** system, not ours.
++ World **withdraws**; we focus on the **technology**.
 
 ]
 
@@ -361,8 +373,11 @@ class: brand-blue
 
 .pull-left[
 
-...
+> `human -> (technology / world)`
 
++ Impacts our **environment**.
++ Through this, **us**.
++ Often don't notice until it **breaks**.
 
 ]
 

@@ -56,17 +56,6 @@ htmltools::tagList(               # # turns on the clipboard option
 xaringanExtra::use_editable(expires = 1)
 ```
 
-```{r, load_refs, echo=FALSE, cache=FALSE, message=FALSE, warning=FALSE}
-library(RefManageR)
-BibOptions(check.entries = FALSE, 
-           bib.style = "authoryear", 
-           cite.style = 'authoryear', 
-           style = "markdown",
-           hyperlink = FALSE, 
-           dashed = FALSE)
-myBib <- ReadBib("assets/example.bib", check = FALSE)
-```
-
 # Today's schedule
 
 .pull-left[
@@ -106,13 +95,42 @@ background-position: 95% 95%
 
 # Introductions
 
-(icon)
+.font150[`r anicon::faa("user-check", animate="pulse", speed="slow")`]
 
 ---
 
 # Dr Ryan Straight
 
-(slide about me)
+.pull-left[.center[
+
+```{r ryan, out.width="75%"}
+knitr::include_graphics("https://mavrxlab.org/author/ryan-straight/avatar_hu1391b7b60d37d3770aa9cbe976f23932_26316_270x270_fill_q75_lanczos_center.jpg")
+```
+
+]]
+
+.pull-right[
+
++ Dog dad
++ Photographer
++ Total nerd
++ Life-long educator
++ Areas of interest:
+    + Extended reality
+    + Philosophy of technology
+    + Postphenomenology (that's us!)
+
+]
+
+.pull-down[
+
+.center[
+
+## Full contact info on the closing slide!
+
+]
+
+]
 
 ---
 class: secondary-river
@@ -120,7 +138,10 @@ background-image: url("assets/ua_horiz_rgb_4.svg")
 background-size: 20%
 background-position: 95% 95%
 
-# What is postphenomenology?
+# What is Postphenomenology?
+
+.font150[`r anicon::faa("question", animate="pulse", speed="slow")`]
+
 
 ???
 
@@ -187,6 +208,9 @@ background-position: 95% 95%
 
 # Terminology
 
+.font150[`r anicon::faa("quote-left", animate="pulse", speed="slow")`]
+
+
 ???
 
 So we've got our basic background of this framework but let's dig into the specific terminology a bit more before we start talking about how we can use it. Listen closely as there will be a quiz. :D
@@ -237,7 +261,8 @@ background-position: 95% 95%
 
 # Technic Relations
 
-(icon)
+.font150[`r anicon::faa("users-cog", animate="pulse", speed="slow")`]
+
 
 ???
 
@@ -373,7 +398,8 @@ background-position: 95% 95%
 
 # Thought experiment
 
-(icon)
+.font150[`r anicon::faa("flask", animate="pulse")`]
+
 
 ???
 
@@ -381,38 +407,140 @@ Do you have it in your mind? Picture everything. The chair, the desk, the laptop
 
 Think about all these things and start categorizing them into the different relations: the mouse and keyboard are quote "part of" the student, so the embodiment relation is occurring. The way the course is designed is unfamiliar, so there's some breakdown in the hermeutic relation as the student tries to interpret what's presented. Perhaps the room is too cold or there's the hum of other machines nearby, so the background relation is impacting the student's ability to concentrate.  
 
-And so on.
+And so on. 
 
 And what about when the student is in a synchronous online class, like via Zoom?
 
 Zoombie?
 
 ---
+class: secondary-river
+
+# Ways to "Do" Postphenomenology
 
 
+???
+
+Here we get into ways to actually "do" this kind of analysis. Much of PP focuses on the technological objects and, more or less, "inteviewing" them. Really getting to how they act as that mediator. But, in online learning, we're focused on more than just the device and the LMS design, right? 
+
+This goes back to Adams and Turville's piece that I quoted at the very beginning. They describe four basic methods of "doing" postphenomenology, what  especially for the online learning space. Their "postphenomenology of practice."
+
+---
+
+# Option 1: The Prereflective
+
+>Composing Anecdotes through Self-Oberservation (Phenomenological Protocol Writing)
+
+```{r option1stock, out.width="55%", fig.align='center'}
+knitr::include_graphics("./assets/option1.jpeg")
+```
+
+.footnote[
+
+[Image via Adobe stock](https://stock.adobe.com/images/woman-sitting-with-her-legs-up/340808447?prev_url=detail)
+
+]
+
+???
+
+"A first way," according to them, "to generate data for a postphenomenological investigation is to attend to one's own lifeworld." Quoting van Manen, "Our personal life experiences are immediately accessible to us in a way that no one else's are."
+
+The phenomenological experience that Ihde used (and which is often referenced in this space) is that of using chalk on a chalkboard. He points out that "I experience the roughness of the board at the end of the chalk.... What I feel is felt locally at the end of the chalk, or better, at the chalk-blackboard junction."
+
+And there's our "enigma point!" So, first-person description, truly being aware of what all is happening and you're experiencing, and using the quote "language of (insert activity here)." Record your own experience in the process and examine it critically. 
+
+---
+
+# Option 2: The Prereflective
+
+>Gathering Lived Experience Descriptions through Interviews
+
+```{r option2stock, out.width="55%", fig.align='center'}
+knitr::include_graphics("./assets/option2.jpeg")
+```
+
+.footnote[
+
+[Image via Adobe stock](https://stock.adobe.com/images/businesswoman-interviewing-male-job-candidate-in-seating-area-of-modern-office/281053075?prev_url=detail)
+
+]
+
+???
+
+Their second option is to "conduct interviews with those who have experience with **the technology-textured phenomenon in question**." It's so much more than a usability study or a UX questionnaire. You're using this to generate quote "a rich and diverse body of first-hand examples of everyday human-technology-world engagements." And this isn't easy! If you've done any interviewing, say for a grad school thesis, you know that it's as much an art as it is a science. That said, it's crucial. The authors use an example of investigating the experience of teaching with PowerPoint:
+
++ Can you think back to the last time you taught with PowerPoint
++ Recalling that particular class, can you walk me through what happened, perhaps beginning with when you arrived and opened your Powerpoint?
++ Do you have a particular moment that stands out when you were teaching with Powerpoint?
++ Where were you?
++ What happened?
+
+And so on. 
+
+---
+
+# Option 3: The Prereflective
+
+> Composing Anecdotes through Observation of Others
+
+```{r option3stock, out.width="55%", fig.align='center'}
+knitr::include_graphics("./assets/option3.jpeg")
+```
+
+.footnote[
+
+[Image via Adobe stock](https://stock.adobe.com/images/recruiter-observing-job-applicant-s-task-management-skills-at-a-job-interview/185416243?prev_url=detail)
+
+]
+
+???
+
+This is a popular method of data generation and is especially used within PP, especially in education. Why? Because it allows you to identify aspects of an experience that the subject may actually not even be aware of. Sure, you don't get access to their thoughts and self-reported observations, but you can get much more, if different, information.
+
+The authors point out: "it is ultimately not the researcher, but the students, who are best positiond to describe how the world of the classroom and the science experiemnt [for example] appeared to them, that is, the intelligibility of the event to each individual, what material aspects of the experiment showed up as meaningful to them, and so on. Here, a PP of Practice necessarily returns, not only to the things themselves, but also to the students themselves.
+
+Ihde calls it "phenomenological looking." All the more important to consider when technology breaks or malfunctions: this can often tell you more than when it works well.
+
+---
+
+# Option 4: The Reflective
+
+> Studying Breakdowns and the Eidetic Reduction
+
+```{r option4stock, out.width="55%", fig.align='center'}
+knitr::include_graphics("./assets/option4.jpeg")
+```
+
+.footnote[
+
+[Image via Adobe stock](https://stock.adobe.com/images/the-text-technical-difficulties-inside-a-black-box-over-an-old-television-test-screen-horizontal-color-bars/358950809?prev_url=detail)
+
+]
+
+???
+
+The "eidetic reduction... recognizes that eery phenomenon obtains its unique identity via its differences from other related phenomenon. A phenomenon is originally constituted and marked by what it is **not**." This is used to uncover those "multistabilities" we talked about: what about it is unique or "invariant" and cannot be reduced any futher? 
+
+That breakdown--the tech, the person, a relationship, you name it--"provides a reliable way of surfacing our otherwise taken-for-granted, co-constitutive relations with technologies and thus make them available for inquiry."
+
+---
+class: secondary-river
+background-image: url("assets/ua_horiz_rgb_4.svg")
+background-size: 20%
+background-position: 95% 95%
+
+# Postphenomenology in Education
+
+.font150[`r anicon::faa("graduation-cap", animate="pulse", speed="slow")`]
 
 
+???
 
+Specifically with technologically dependent education (and, I argue, online learning), "postphenomenolgoical studies and insight may serve in promoting more critically circumspace applications of different technologies in pedagogical settings, and in advancing a long-overdue revision to our taken-for-granted assumptions and practices with technology in education."
 
+In short, "by applying postphenomenological concepts to concrete instances of human-technology relations, the advantages, disadvantages, limits, and places of potential expansion and enrichment can be identified."
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This "(post)phenomenology of practice" provides another approach... that leans heavily on its phenomenological roots while providing a stable methodological ground for conducting empirical postphenomenological studies in education."
 
 
 
@@ -431,22 +559,39 @@ Zoombie?
 
 <!-- Ending slide below -->
 ---
-class: arizona-blue
+class: arizona-cool
 background-image: url(assets/ua_horiz_rgb_4.svg)
 background-size: 260px
 background-position: 5% 95%
 
 # Thank you!
 
+
+
+.font150[ You can find references and readings on the MAVRX Lab's event page at:]
+
+.font170[https://mavrxlab.org/event/ac21/]
+
+.pull-left[
+
 Contact info:
 
-
-.content-box-bloom[You can find references and readings on the [MAVRX Lab's event page](https://mavrxlab.org/event/ac21/)!]
-
-.pull-right[.pull-down[
-
+Dr. Ryan Straight  
+Assistant Professor of Practice in Applied Computing and Cyber Operations  
+College of Applied Science and Technology  
+Universtiy of Arizona  
 ryanstraight@arizona.edu
 
 <br><br><br>
 
-]]
+]
+
+.pull-right[
+
+```{r qr, fig.cap="Resources, references, and more."}
+knitr::include_graphics("./assets/event.png")
+```
+
+*Resources, references, and more.*
+
+]

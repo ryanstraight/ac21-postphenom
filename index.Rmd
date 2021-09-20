@@ -188,7 +188,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e7/Nec
 .font40[Source: Wiki Commons: https://commons.wikimedia.org/wiki/File:Necker_cube.svg]
 
 ]
-...
+
 
 ???
 
@@ -629,10 +629,8 @@ ryanstraight@arizona.edu
 
 .pull-right[
 
-```{r qr, fig.cap="Resources, references, and more."}
+```{r qr, out.width="60%", fig.cap="Resources, references, and more."}
 knitr::include_graphics("./assets/event.png")
 ```
-
-*Resources, references, and more.*
 
 ]

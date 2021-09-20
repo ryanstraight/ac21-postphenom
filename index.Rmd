@@ -56,6 +56,31 @@ htmltools::tagList(               # # turns on the clipboard option
 xaringanExtra::use_editable(expires = 1)
 ```
 
+```{r metathis, echo=FALSE, eval=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "ryanstraight/ac21-postphenom") %>% 
+  meta_social(
+    title = "Technological Mediation",
+    description = paste(
+      "A Postphenomenology Primer for Instructors, Designers, and More.",
+      "Presented at OLC Accelerate 2021."
+    ),
+    url = "https://ryanstraight.github.io/ac21-postphenom/",
+    image = "https://ryanstraight.github.io/ac21-postphenom/assets/share.png",
+    image_alt = paste(
+      "Title slide of Technological Mediation:", 
+      "A Postphenomenology Primer for Instructors, Designers, and More,", 
+      "presented at OLC Accelerate 2021 by Dr. Ryan Straight"
+    ),
+    og_type = "website",
+    og_author = "Ryan Straight",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@ryanstraight",
+    twitter_site = "@mavrxlab"
+  )
+```
+
 # Today's schedule
 
 .pull-left[
@@ -179,7 +204,7 @@ class: brand-blue
 
 .pull-right[
 
-## The necker cube: variational analysis
+## The Necker cube: variational analysis
 
 ```{r necker}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e7/Necker_cube.svg")
@@ -285,7 +310,7 @@ class: brand-blue
 
 .pull-left[
 
-> `(human - technology) -> world`
+> (human &ndash; technology) &rarr; world
 
 People and technology together relate to the world.
 
@@ -314,7 +339,7 @@ class: brand-blue
 
 .pull-left[
 
-> `human -> (technology - world)`
+> human &rarr; (technology &ndash; world)
 
 + You **read off** a speedometer.
 + We **interpret** an x-ray.
@@ -344,7 +369,7 @@ class: brand-blue
 
 .pull-left[
 
-> `human -> technology (world)`
+> human &rarr; technology (world)
 
 + Technology as **other**.
 + We're in **its** system, not ours.
@@ -373,7 +398,7 @@ class: brand-blue
 
 .pull-left[
 
-> `human -> (technology / world)`
+> human &rarr; (technology / world)
 
 + Impacts our **environment**.
 + Through this, **us**.
@@ -399,7 +424,7 @@ class: brand-red
 
 ## Fusion
 
-> (I / Technology) -> World
+> (I / Technology) &rarr; World
 
 ???
 
@@ -411,7 +436,7 @@ First, fusion. Here we're talking about everything from IUDs to pacemakers, from
 
 ## Immersion
 
-> I <-> Technology/World
+> I &harr; Technology/World
 
 ???
 
@@ -421,7 +446,7 @@ This is reflexive technology. A "classic" example of this is a "smart mirror" yo
 
 ## Augmentation
 
-> (I-Technology) -> World -> (Technology-World)
+> (I &ndash; Technology) &rarr; World &rarr; (Technology &ndash; World)
 
 ???
 
